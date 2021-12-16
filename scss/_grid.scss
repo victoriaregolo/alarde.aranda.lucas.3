@@ -1,0 +1,56 @@
+$desktop: 1024px;
+$minimomobile: 0px;
+$maximomobile: 768px;
+* {
+  margin: 0%;
+}
+body {
+  background-image: url("../assets/img/fonfoblanco.jpg");
+}
+@media only screen and (min-width:$desktop) {
+  .gridContainerPadre {
+    display: grid;
+    grid-template-areas:
+    "header header header  "
+    "main main main  "
+    "footer footer footer ";
+     grid-template-rows: 110px auto 200px;
+     grid-template-columns: 25% auto 25%;
+  }
+    header {
+   grid-area: header;
+      }
+    main {
+        grid-area: main;
+      }
+    footer {
+        grid-area: footer;
+      }
+    .flex {
+        display: flex;
+      }      
+}
+@media only screen and (min-width: $minimomobile) and (max-width: $maximomobile) {
+  .gridContainerPadre {
+    display: grid;
+    grid-template-areas:
+      "header "
+      "main"
+      "footer";
+    grid-template-rows: 110px auto 300px;
+    grid-template-columns: 100%;
+  }
+  header {
+    grid-area: header;
+  }
+  main {
+    grid-area: main;
+  }
+  footer {
+    grid-area: footer;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+  }    
+}
