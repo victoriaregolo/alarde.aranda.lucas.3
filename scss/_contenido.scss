@@ -8,13 +8,6 @@ $maximomobile: 768px;
 body {
   background-image: url("../assets/img/fonfoblanco.jpg");
 }
-@titulos color-font-weight-font-family-display-align-items {
-  color: rgb(146, 0, 0);
-  font-weight: bold;
-  font-family: "Arvo";
-  display: flex;
-  align-items: center;
-}
 .paralax {
   background-image: url("../assets/img/cerveza10.b.jpg");
   background-repeat: no-repeat;
@@ -22,10 +15,14 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-@media only screen and (min-width:$minimomobile ) and(max-width:$maximomobile ) {
+@media only screen and (min-width: $minimomobile) and(max-width:$maximomobile ) {
   .main_section--titulos {
     font-size: 20px;
-    @include color-font-weight-font-family-display-align-items;
+    color: rgb(146, 0, 0);
+    font-weight: bold;
+    font-family: "Arvo";
+    display: flex;
+    align-items: center;
   }
   .main_div--parrafopresentacion {
     font-family: "IM Fell DW Pica", serif;
@@ -47,10 +44,14 @@ body {
     transform: skewX(-20deg);
   }
 }
-@media only screen and (min-width:$desktop ) {
+@media only screen and (min-width: $desktop) {
   .main_section--titulos {
     font-size: 50px;
-    @include color-font-weight-font-family-display-align-items;
+    color: rgb(146, 0, 0);
+    font-weight: bold;
+    font-family: "Arvo";
+    display: flex;
+    align-items: center;
   }
   h2 {
     margin: auto;
@@ -77,5 +78,5 @@ body {
   }
   .main_section--iframe:hover {
     margin: 50px;
-  }  
+  }
 }

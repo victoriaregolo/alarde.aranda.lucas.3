@@ -4,9 +4,11 @@ salmon: rgb(255, 165, 112),
 gris: rgb(131, 120, 120),
 negro: rgb(0, 0, 0),
 anaranjado: orangered,
-desktop: 1024px,
-minimomobile: 0px,
-maximomobile: 768px,
+);
+$vista: (
+  desktop: 1024px,
+  minimomobile: 0px,
+  maximomobile: 768px,
 );
 * {
   margin: 0%;
@@ -23,7 +25,8 @@ a {
 }
 a:hover {
   color: map-get($colores,salmon);
-@media only screen and (min-width: $desktop) {
+}
+@media only screen and (min-width: $vista, desktop) {
   .classNavUl {
     list-style-type: none;
     position: relative;
@@ -51,7 +54,7 @@ a:hover {
     border-radius: 5px !important;
   }
 }
-@media only screen and (min-width: $minimomobile) and(max-width:$maximomobile){
+@media only screen and (min-width: $vista, minimomobile) and(max-width:$vista, maximomobile){
    .classNavUl {
     list-style-type: none;
     margin: 2px 5px 0px -250px;
@@ -80,5 +83,4 @@ a:hover {
     margin-bottom: 80px !important;
     width: 20%;
   }
-}
 }
