@@ -1,13 +1,15 @@
-$desktop: 1024px;
-$minimomobile: 0px;
-$maximomobile: 768px;
+$medidas: (
+  desktop: 1024px,
+  minimomobile: 0px,
+  maximomobile: 768px,
+);
 * {
   margin: 0%;
 }
 body {
   background-image: url("../assets/img/fonfoblanco.jpg");
 }
-@media only screen and (min-width:$desktop) {
+@media only screen and (min-width: map-get($medidas, desktop)) {
   .gridContainerPadre {
     display: grid;
     grid-template-areas:
@@ -30,7 +32,7 @@ body {
         display: flex;
       }      
 }
-@media only screen and (min-width: $minimomobile) and (max-width: $maximomobile) {
+@media only screen and(min-width:map-get($medidas,minimomobile)) and(max-width:map-get($medidas,maximomobile)) {
   .gridContainerPadre {
     display: grid;
     grid-template-areas:

@@ -1,0 +1,15 @@
+.parallax {
+    background-image: url("../assets/img/cerveza10.b.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main_section{
+    @extend.parallax;
+    height: 610px !important;
+    width: 99% !important;
+    border: 4px solid black !important;
+    margin-left: 7px !important;
+    margin-top: 6px;
+}
