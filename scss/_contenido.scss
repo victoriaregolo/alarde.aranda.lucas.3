@@ -2,18 +2,18 @@ $bordo: rgb(146, 0, 0);
 $desktop: 1024px;
 $minimomobile: 0px;
 $maximomobile: 768px;
-* {
-  margin: 0%;
-}
-body {
-  background-image: url("../assets/img/fonfoblanco.jpg");
-}
 .paralax {
   background-image: url("../assets/img/cerveza10.b.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+* {
+  margin: 0%;
+}
+body {
+  background-image: url("../assets/img/fonfoblanco.jpg");
 }
 @media only screen and (min-width: $minimomobile) and(max-width:$maximomobile ) {
   .main_section--titulos {
@@ -29,7 +29,7 @@ body {
     font-size: 20px;
     margin: 5px 10px 5px 0px;
   }
-  .paralax--.main_section--parallax {
+  .paralax--main_section{
     @extend.paralax;
     height: 400px;
     width: 90%;
