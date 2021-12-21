@@ -1,0 +1,32 @@
+$medidas: (
+  desktop: 1024px,
+  minimomobile: 0px,
+  maximomobile: 768px,
+);
+@media only screen and (min-width: map-get($medidas, desktop)) {
+    .section_img--decoracion {
+        margin: 10px;
+        width: 450px;
+        height: 503px;
+        list-style-type: none;
+        border: solid black 5px;
+        transition: border;
+      }
+      .section_img--decoracion:hover {
+        border: solid 10px rgb(255, 165, 112);
+        border-radius: 10px;
+      }      
+}
+@media only screen and (min-width:map-get($medidas,minimomobile)) and(max-width:map-get($medidas,maximomobile)){
+    .section_img--decoracion {
+        width: 90%;
+        height: 300px;
+        margin-left: 2px;
+        list-style-type: none;
+        border: solid black 1px;
+      }
+      .section_img--decoracion:hover {
+        border: solid 10px rgb(255, 165, 112);
+        border-radius: 10px;
+      }    
+}

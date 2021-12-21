@@ -1,0 +1,55 @@
+$medidas: (
+  desktop: 1024px,
+  minimomobile: 0px,
+  maximomobile: 768px,
+);
+@media only screen and (min-width: map-get($medidas, desktop)) {
+    .gridContainerPadreSucursales {
+        display: grid;
+        grid-template-areas:
+          "header header header"
+          "main main main"
+          "footer footer footer";
+        grid-row: 110px auto 200px;
+        grid-column: repeat (3, 1fr);
+      }
+      header {
+        grid-area: header;
+      }
+      main {
+        grid-area: main;
+      }
+      footer {
+        grid-area: footer;
+      }
+      .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+}
+@media only screen and (min-width:map-get($medidas,minimomobile)) and(max-width:map-get($medidas,maximomobile)){
+    .gridContainerPadreSucursales {
+        display: grid;
+        grid-template-areas:
+          "header"
+          "main"
+          "footer";
+        grid-row: 110px auto 200px;
+        grid-column: 100%;
+      }
+      header {
+        grid-area: header;
+      }
+      main {
+        grid-area: main;
+      }
+      footer {
+        grid-area: footer;
+      }
+      .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+}

@@ -1,0 +1,68 @@
+$medidas: (
+  desktop: 1024px,
+  minimomobile: 0px,
+  maximomobile: 768px,
+);
+@media only screen and (min-width: map-get($medidas, desktop)) {
+    .main_h1--tipografia {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+        text-align: left;
+        font-family: "Arvo";
+        padding: 20px;
+        background-image: linear-gradient(to left, rgb(255, 240, 34), orangered);
+        transition: font-size;
+      }
+      .main_sesion--form {
+        padding: 20px;
+        background-image: url("../assets/img/contacto1.jpg");
+        background-repeat: round;
+        font-family: "IM Fell DW Pica";
+        color: white;
+        font-size: 25px;
+      }
+      input,
+      textarea,
+      select {
+        text-align: center;
+        font-family: "IM Fell";
+        font-weight: 10px;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, orange, red);
+      }
+}
+@media only screen and (min-width:map-get($medidas,minimomobile)) and(max-width:map-get($medidas,maximomobile)){
+    .main_h1--tipografia {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+        text-align: left;
+        font-family: "Arvo";
+        padding: 20px;
+        background-image: linear-gradient(to left, rgb(255, 240, 34), orangered);
+        width: 90%;
+      }
+      .main_sesion--form {
+        text-align: left;
+        padding: 20px;
+        background-image: url("../assets/img/contacto1.jpg");
+        background-repeat: round;
+        font-family: "IM Fell DW Pica";
+        color: white;
+        font-size: 25px;
+        width: 90%;
+      }
+      input,
+      textarea,
+      select {
+        font-family: "IM Fell";
+        font-weight: 10px;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, orange, red);
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+}

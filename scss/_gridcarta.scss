@@ -1,0 +1,55 @@
+$medidas: (
+  desktop: 1024px,
+  minimomobile: 0px,
+  maximomobile: 768px,
+);
+@media only screen and (min-width: map-get($medidas, desktop)) {
+    .gridContainerPadreCarta {
+        display: grid;
+        grid-template-areas:
+          "header header header"
+          "section section section"
+          "footer footer footer";
+        grid-template-columns: repeat(3, 33, 33%);
+        grid-template-rows: 110px auto 200px;
+      }
+      header {
+        grid-area: header;
+      }
+      section {
+        grid-area: section;
+      }
+      footer {
+        grid-area: footer;
+      }
+      .flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+}
+@media only screen and (min-width:map-get($medidas,minimomobile)) and(max-width:map-get($medidas,maximomobile)){
+     .gridContainerPadreCarta {
+        display: grid;
+        grid-template-areas:
+          "header header header"
+          "section section section"
+          "footer footer footer";
+        grid-template-columns: repeat(3, 33, 33%);
+        grid-template-rows: 110px auto 200px;
+      }
+      header {
+        grid-area: header;
+      }
+      section {
+        grid-area: section;
+      }
+      footer {
+        grid-area: footer;
+      }
+      .flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+}

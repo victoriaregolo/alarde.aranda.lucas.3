@@ -1,0 +1,53 @@
+$medidas: (
+  desktop: 1024px,
+  minimomobile: 0px,
+  maximomobile: 768px,
+);
+@media only screen and (min-width: map-get($medidas, desktop)) {
+    .gridContainerPadreContacto {
+        display: grid;
+        grid-template-areas:
+          "header header header"
+          "main main main"
+          "footer footer footer";
+        grid-template-columns: repeat(3, 33, 33%);
+        grid-template-rows: 110px auto 200px;
+      }
+      header {
+        grid-area: header;
+      }
+      main {
+        grid-area: main;
+      }
+      footer {
+        grid-area: footer;
+      }
+      .flex {
+        display: flex;
+        justify-content: center;
+      }
+}
+@media only screen and (min-width:map-get($medidas,minimomobile)) and(max-width:map-get($medidas,maximomobile)){
+    .gridContainerPadreContacto {
+        display: grid;
+        grid-template-areas:
+          "header header header"
+          "main main main"
+          "footer footer footer";
+        grid-template-columns: repeat(3, 33, 33%);
+        grid-template-rows: 110px auto 200px;
+      }
+      header {
+        grid-area: header;
+      }
+      main {
+        grid-area: main;
+      }
+      footer {
+        grid-area: footer;
+      }
+      .flex {
+        display: flex;
+        justify-content: center;
+      }
+}
