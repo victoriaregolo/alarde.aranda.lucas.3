@@ -31,11 +31,11 @@ $medidas: (
     .gridContainerPadreContacto {
         display: grid;
         grid-template-areas:
-          "header header header"
-          "main main main"
-          "footer footer footer";
-        grid-template-columns: repeat(3, 33, 33%);
-        grid-template-rows: 110px auto 200px;
+          "header"
+          "main"
+          "footer";
+        grid-template-columns:100%;
+        grid-template-rows: 110px auto 300px;
       }
       header {
         grid-area: header;

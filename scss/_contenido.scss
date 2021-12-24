@@ -30,6 +30,7 @@ body {
     font-family: "IM Fell DW Pica", serif;
     font-size: 20px;
     margin: 5px 10px 5px 0px;
+    flex-wrap: wrap;
   }
   .main_section{
     background-image: url("../assets/img/cerveza10.b.jpg");
@@ -46,7 +47,6 @@ body {
     justify-content: center;
     margin-left: -1px;
     margin-right: -1px;
-    transform: skewX(-20deg);
   }
 }
 @media only screen and (min-width: map-get($medidas, desktop)) {

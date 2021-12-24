@@ -65,29 +65,29 @@ a:hover {
     list-style-type: none;
     margin: 0px !important;
     position: relative;
-    top: -100px;
+    top: -15px;
     left: -5px !important;
     padding: 0px;
     display: flex;
     justify-content:center !important;
   }
   .classNavLi {
-    font-size: 30px;
-    color: rgb(131, 120, 120);
+    font-size: 15px!important;
+    color:map-get($colores,gris);
     list-style: none;
     padding: 10px;
     margin: 10px 0px 0px 0px;
   }
   .header--position {
-    background-color: rgb(0, 0, 0);
-    position: sticky;
-    top: 0;
-    border-bottom: 6px solid orangered;
+    background-color: map-get($colores,negro);
+    border-bottom: 6px solid map-get($colores,anaranjado);
     height: 110px;
     width: 100%;
+    top: 0;
   }
   .div_img--border {
-    margin: 5px 0px 5px 5px;
-    border-radius: 5px !important;
+    margin: 10px 0px 5px 150px;
+    border-radius:5px !important;
+    height: 60px;
   }
 }

@@ -36,10 +36,10 @@ body {
   .gridContainerPadre {
     display: grid;
     grid-template-areas:
-      "header "
-      "main"
+      "header  "
+      "main   "
       "footer";
-    grid-template-rows: 110px auto 300px;
+    grid-template-rows: 110px auto 200px;
     grid-template-columns: 100%;
   }
   header {
@@ -53,6 +53,5 @@ body {
   }
   .flex {
     display: flex;
-    justify-content: center;
-  }    
+  }  
 }

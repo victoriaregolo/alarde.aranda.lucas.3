@@ -4,121 +4,138 @@ $medidas: (
   maximomobile: 768px,
 );
 @media only screen and (min-width: map-get($medidas, desktop)) {
-    @keyframes desaparecer {
-        0% {
-          opacity: 100%;
-        }
-        50% {
-          opacity: 0%;
-        }
-        100% {
-          opacity: 100%;
-        }
-      }
-      .div_img--medidas {
-        background-image: url("../assets/img/cartab.jpg");
-        height: 610px;
-        text-align: center;
-        border-bottom: 10px solid black;
-        background-color: black;
-        border-radius: 150px;
-        animation-name: desaparecer;
-        animation-duration: 5s;
-        animation-iteration-count: 2;
-        animation-timing-function: ease-in;
-      }
-      .div_texto--tipografia {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        font-size: 50px;
-        color: rgb(146, 0, 0);
-        font-weight: bold;
-        font-family: "Ewert";
-        margin: 20px;
-        border-color: black;
-      }
-      .tabla_texto--estilo {
-        font-family: "IM Fell DW Pica";
-        font-weight: bold;
-        font-size: 20px;
-        color: white;
-        transition: color;
-      }
-      .tabla_texto--estilo:hover {
-        color: rgb(255, 196, 0);
-      }
-      .tabla_acotación--posicion {
-        display: flex;
-        justify-content: center;
-        color: rgb(146, 0, 0);
-        font-family: "Courier New", Courier, monospace;
-        font-size: 20px;
-        font-weight: bold;
-      }
-      table {
-        display: flex;
-        justify-content: center;
-        border-radius: 100px;
-        background-image: url("../assets/img/fondocarta.jpg");
-      }
-      .div_piepagina--estilos {
-        text-align: center;
-        margin: 15px;
-        color: red;
-        font-family: "IM Fell DW Pica";
-        background-color: black;
-        border-radius: 10px;
-        font-size: 20px;
-      }
+  @keyframes desaparecer {
+    0% {
+      opacity: 100%;
+    }
+    50% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  .div_img--medidas {
+    background-image: url("../assets/img/cartab.jpg");
+    height: 610px;
+    text-align: center;
+    border-bottom: 10px solid black;
+    background-color: black;
+    border-radius: 150px !important;
+    animation-name: desaparecer;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+  }
+  .div_texto--tipografia {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 50px;
+    color: rgb(146, 0, 0);
+    font-weight: bold;
+    font-family: "Ewert";
+    margin: 20px;
+    border-color: black;
+  }
+  .tabla_texto--estilo {
+    font-family: "IM Fell DW Pica";
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    transition: color;
+  }
+  .tabla_texto--estilo:hover {
+    color: rgb(255, 196, 0);
+  }
+  .tabla_acotación--posicion {
+    display: flex;
+    justify-content: center;
+    color: rgb(146, 0, 0);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  table {
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    background-image: url("../assets/img/fondocarta.jpg");
+  }
+  .div_piepagina--estilos {
+    text-align: center;
+    margin: 15px;
+    color: red;
+    font-family: "IM Fell DW Pica";
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+  }
 }
-@media only screen and (min-width:map-get($medidas,minimomobile)) and(max-width:map-get($medidas,maximomobile)){
-    .div_img--medidas {
-        background-image: url("../assets/img/cartab.jpg");
-        height: 610px;
-        width: 100%;
-        border-bottom: 10px solid black;
-      }
-      .div_texto--tipografia {
-        display: flex;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        font-size: 30px;
-        color: rgb(146, 0, 0);
-        font-weight: bold;
-        font-family: "Ewert";
-        margin: 5px;
-        border-color: black;
-      }
-      .tabla_texto--estilo {
-        font-family: "IM Fell DW Pica";
-        font-weight: bold;
-        font-size: 10px;
-        color: white;
-        width: 100%;
-      }
-      .tabla_acotación--posicion {
-        display: flex;
-        justify-content: center;
-        color: rgb(146, 0, 0);
-        font-family: "Courier New", Courier, monospace;
-        font-size: 20px;
-        font-weight: bold;
-      }
-      table {
-        display: flex;
-        justify-content: center;
-        background-image: url("../assets/img/fondocarta.jpg");
-        border-radius: 5px;
-      }
-      .div_piepagina--estilos {
-        text-align: center;
-        margin: 2px;
-        color: red;
-        font-family: "IM Fell DW Pica";
-        background-color: black;
-        border-radius: 10px;
-        font-size: 10px;
-        width: 100%;
-      }
+@media only screen and (min-width: map-get($medidas,minimomobile)) and(max-width:map-get($medidas,maximomobile)) {
+  @keyframes desaparecer {
+    0% {
+      opacity: 100%;
+    }
+    50% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  .div_img--medidas {
+    background-image: url("../assets/img/cartab.jpg");
+    height: 610px;
+    text-align: center;
+    border-bottom: 10px solid black;
+    background-color: black;
+    border-radius: 150px !important;
+    animation-name: desaparecer;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+  }
+  .div_texto--tipografia {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-size: 30px;
+    color: rgb(146, 0, 0);
+    font-weight: bold;
+    font-family: "Ewert";
+    margin: 5px;
+    border-color: black;
+  }
+  .tabla_texto--estilo {
+    font-family: "IM Fell DW Pica";
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    width: 100%;
+  }
+  .tabla_acotación--posicion {
+    display: flex;
+    justify-content: center;
+    color: rgb(146, 0, 0);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  table {
+    display: flex;
+    justify-content: center;
+    background-image: url("../assets/img/fondocarta.jpg");
+    border-radius: 5px;
+  }
+  .div_piepagina--estilos {
+    text-align: center;
+    margin-top: 5px;
+    color: red;
+    font-family: "IM Fell DW Pica";
+    background-color: black;
+    border-radius: 10px;
+    font-size: 10px;
+    width: 100%;
+  }
 }
