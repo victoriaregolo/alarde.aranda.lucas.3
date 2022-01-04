@@ -13,13 +13,14 @@ $medidas: (
         padding: 20px;
         background-image: linear-gradient(to left, rgb(255, 240, 34), orangered);
         transition: font-size;
+        margin-top: 5px;
       }
       .main_sesion--form {
         padding: 20px;
-        background-image: url("../assets/img/contacto1.jpg");
+        background-image: url("../assets/img/buzo.jpg");
         background-repeat: round;
         font-family: "IM Fell DW Pica";
-        color: white;
+        color: rgb(255, 255, 255);
         font-size: 25px;
       }
       input,
@@ -42,6 +43,7 @@ $medidas: (
         padding: 20px;
         background-image: linear-gradient(to left, rgb(255, 240, 34), orangered);
         width: 90%;
+        margin-top: 5px;
       }
       .main_sesion--form {
         text-align: left;

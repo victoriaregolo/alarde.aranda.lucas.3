@@ -4,61 +4,61 @@ $medidas: (
   maximomobile: 768px,
 );
 @media only screen and (min-width: map-get($medidas, desktop)) {
-    .div_h3--decoracion {
-        font-size: 40px;
-        color: rgb(146, 0, 0);
-        font-weight: bold;
-        font-family: "IM Fell DW Pica";
-        display: flex;
-        justify-content: center;
-        margin: 10px;
-      }
-      .div_text--decoracion {
-        text-align: center;
-        width: 70%;
-        margin-left: 250px;
-        font-size: 25px;
-        font-weight: bold;
-        color: white;
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-        border-radius: 200px;
-        background-color: grey;
-      }
-      @keyframes sucursales {
-        0% {
-          width: 100%;
-        }
-        30% {
-          transform: rotateY(100deg);
-        }
-        60% {
-          width: 100%;
-        }
-        90% {
-          transform: rotateX(100deg);
-        }
-        100% {
-          width: 100%;
-        }
-      }
-      .div_img--posicion {
-        border: solid black 5px;
-        border-radius: 250px;
-        background-image: url("../assets/img/fondonegro.jpg");
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 500px;
-        margin: 10px;
-        animation-name: sucursales;
-        animation-duration: 2s !important;
-        animation-iteration-count: 1 !important;
-        animation-timing-function: ease-in;
-        margin-left: -20px !important;
-      }      
+  .div_h3--decoracion {
+    font-size: 40px;
+    color: rgb(146, 0, 0);
+    font-weight: bold;
+    font-family: "IM Fell DW Pica";
+    display: flex;
+    justify-content: center;
+    margin-left: -10px !important;
+  }
+  .div_text--decoracion {
+    text-align: center;
+    width: 70%;
+    margin-left: 250px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    border-radius: 200px;
+    background-color: grey;
+  }
+  @keyframes sucursales {
+    0% {
+      width: 100%;
+    }
+    30% {
+      transform: rotateY(100deg);
+    }
+    60% {
+      width: 100%;
+    }
+    90% {
+      transform: rotateX(100deg);
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  .div_img--posicion {
+    border: solid black 5px;
+    border-radius: 250px;
+    background-image: url("../assets/img/fondonegro.jpg");
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    margin: 10px;
+    animation-name: sucursales;
+    animation-duration: 2s !important;
+    animation-iteration-count: 1 !important;
+    animation-timing-function: ease-in;
+    margin-left: -20px !important;
+  }
 }
-@media only screen and (min-width:map-get($medidas,minimomobile)) and(max-width:map-get($medidas,maximomobile)){
+@media only screen and (min-width: map-get($medidas,minimomobile)) and(max-width:map-get($medidas,maximomobile)) {
   .div_h3--decoracion {
     font-size: 20px;
     color: rgb(146, 0, 0);
@@ -78,8 +78,7 @@ $medidas: (
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     border-radius: 20px !important;
     background-color: grey;
-    text-align:center;
-    
+    text-align: center;
   }
   @keyframes sucursales {
     0% {

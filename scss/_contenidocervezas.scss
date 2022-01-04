@@ -13,7 +13,7 @@ $medidas: (
         transition: border;
       }
       .section_img--decoracion:hover {
-        border: solid 10px rgb(255, 165, 112);
+        border: solid 10px rgb(107, 5, 5);
         border-radius: 10px;
       }      
 }
@@ -24,9 +24,10 @@ $medidas: (
         margin-left: 2px;
         list-style-type: none;
         border: solid black 1px;
+        margin: 5px !important;
       }
       .section_img--decoracion:hover {
-        border: solid 10px rgb(255, 165, 112);
+        border: solid 10px rgb(107, 5, 5);
         border-radius: 10px;
       }    
 }

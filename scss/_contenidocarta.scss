@@ -24,8 +24,9 @@ $medidas: (
     border-radius: 150px !important;
     animation-name: desaparecer;
     animation-duration: 5s;
-    animation-iteration-count: 2;
+    animation-iteration-count: 1;
     animation-timing-function: ease-in;
+    margin-top: 5px;
   }
   .div_texto--tipografia {
     display: flex;
@@ -93,7 +94,7 @@ $medidas: (
     border-radius: 150px !important;
     animation-name: desaparecer;
     animation-duration: 5s;
-    animation-iteration-count: 2;
+    animation-iteration-count: 1;
     animation-timing-function: ease-in;
   }
   .div_texto--tipografia {
@@ -104,7 +105,7 @@ $medidas: (
     color: rgb(146, 0, 0);
     font-weight: bold;
     font-family: "Ewert";
-    margin: 5px;
+    margin-bottom: 2px;
     border-color: black;
   }
   .tabla_texto--estilo {
@@ -130,12 +131,12 @@ $medidas: (
   }
   .div_piepagina--estilos {
     text-align: center;
-    margin-top: 5px;
     color: red;
     font-family: "IM Fell DW Pica";
     background-color: black;
     border-radius: 10px;
     font-size: 10px;
     width: 100%;
+    margin-bottom: 5px;
   }
 }
