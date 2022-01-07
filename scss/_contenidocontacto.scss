@@ -17,10 +17,10 @@ $medidas: (
       }
       .main_sesion--form {
         padding: 20px;
-        background-image: url("../assets/img/contacto1.jpg");
+        background-image: url("../assets/img/cerveza1.jpg");
         background-repeat: repeat;
-        font-family: "Bebas neue";
-        color:white;
+        font-family: "Im Fell DW Pica";
+        color:black;
         font-size: 25px;
         text-align: center;
       }
@@ -31,7 +31,7 @@ $medidas: (
         font-family: "IM Fell";
         font-weight: 10px;
         border-radius: 20px;
-        background-image: linear-gradient(to right, orange, red);
+        background-color:rgb(161, 34, 34);
       }
 }
 @media only screen and (min-width:map-get($medidas,minimomobile)) and(max-width:map-get($medidas,maximomobile)){
@@ -40,7 +40,7 @@ $medidas: (
         color: black;
         font-weight: bold;
         text-align: left;
-        font-family: "Arvo";
+        font-family: "Lobster";
         padding: 20px;
         background-image: linear-gradient(to left, rgb(255, 240, 34), orangered);
         width: 90%;
@@ -49,12 +49,13 @@ $medidas: (
       .main_sesion--form {
         text-align: left;
         padding: 20px;
-        background-image: url("../assets/img/contacto1.jpg");
-        background-repeat: round;
+        background-image: url("../assets/img/fondonegro.jpg");
+        background-repeat:round;
         font-family: "IM Fell DW Pica";
-        color: white;
+        color:white;
         font-size: 25px;
         width: 90%;
+        border-bottom: 50px solid black;
       }
       input,
       textarea,
@@ -62,7 +63,7 @@ $medidas: (
         font-family: "IM Fell";
         font-weight: 10px;
         border-radius: 20px;
-        background-image: linear-gradient(to right, orange, red);
+        background-color:rgb(161, 34, 34);
         width: 90%;
         display: flex;
         justify-content: center;

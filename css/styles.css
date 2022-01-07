@@ -50,13 +50,12 @@ a:hover {
     list-style-type: none;
     margin: 0px !important;
     position: relative;
-    top: -25px;
-    left: -5px !important;
+    top: -20px;
     padding: 0px;
     display: flex;
     justify-content: center !important; }
   .classNavLi {
-    font-size: 15px !important;
+    font-size: 21px !important;
     color: #b3acac;
     list-style: none;
     padding: 10px;
@@ -67,9 +66,9 @@ a:hover {
     width: 100%;
     top: 0; }
   .div_img--border {
-    margin: 10px 0px 5px 140px;
+    margin: 5px 0px 5px 160px;
     border-radius: 5px !important;
-    height: 60px; } }
+    height: 50px; } }
 
 .parallax, .main_section {
   background-image: url("../assets/img/cerveza10.b.jpg");
@@ -393,10 +392,10 @@ body {
     margin-top: 5px; }
   .main_sesion--form {
     padding: 20px;
-    background-image: url("../assets/img/contacto1.jpg");
+    background-image: url("../assets/img/cerveza1.jpg");
     background-repeat: repeat;
-    font-family: "Bebas neue";
-    color: white;
+    font-family: "Im Fell DW Pica";
+    color: black;
     font-size: 25px;
     text-align: center; }
   input,
@@ -406,7 +405,7 @@ body {
     font-family: "IM Fell";
     font-weight: 10px;
     border-radius: 20px;
-    background-image: linear-gradient(to right, orange, red); } }
+    background-color: #a12222; } }
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .main_h1--tipografia {
@@ -414,7 +413,7 @@ body {
     color: black;
     font-weight: bold;
     text-align: left;
-    font-family: "Arvo";
+    font-family: "Lobster";
     padding: 20px;
     background-image: linear-gradient(to left, #fff022, orangered);
     width: 90%;
@@ -422,19 +421,20 @@ body {
   .main_sesion--form {
     text-align: left;
     padding: 20px;
-    background-image: url("../assets/img/contacto1.jpg");
+    background-image: url("../assets/img/fondonegro.jpg");
     background-repeat: round;
     font-family: "IM Fell DW Pica";
     color: white;
     font-size: 25px;
-    width: 90%; }
+    width: 90%;
+    border-bottom: 50px solid black; }
   input,
   textarea,
   select {
     font-family: "IM Fell";
     font-weight: 10px;
     border-radius: 20px;
-    background-image: linear-gradient(to right, orange, red);
+    background-color: #a12222;
     width: 90%;
     display: flex;
     justify-content: center;
