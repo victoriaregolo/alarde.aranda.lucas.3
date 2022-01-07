@@ -7,28 +7,28 @@ body {
 
 a {
   text-decoration: none;
-  color: #920000;
+  color: #b3acac;
   font-weight: bold;
-  font-family: "IM Fell DW Pica", serif;
+  font-family: "Lobster";
   transition: color; }
 
 a:hover {
-  color: #ffa570; }
+  color: #920000; }
 
 @media only screen and (min-width: 1024px) {
   .classNavUl {
     list-style-type: none;
     position: relative;
-    top: -100px;
+    top: -30px;
     left: -5px !important;
-    margin-left: 500px;
+    margin-left: 400px;
     padding: 0px;
     display: flex;
     justify-content: center !important;
     display: inline-block !important; }
   .classNavLi {
     font-size: 30px;
-    color: #837878;
+    color: #b3acac;
     list-style: none;
     padding: 10px;
     margin-top: 10px !important;
@@ -37,12 +37,13 @@ a:hover {
     justify-content: center; }
   .header--position {
     background-color: black;
-    border-bottom: 6px solid orangered;
     height: 110px;
-    width: 100%; }
+    width: 100%;
+    border-bottom: 5px solid white; }
   .div_img--border {
-    margin: 5px 0px 5px 5px;
-    border-radius: 5px !important; } }
+    margin: -7px 0px 5px 640px;
+    border-radius: 300px !important;
+    width: 7%; } }
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .classNavUl {
@@ -56,13 +57,12 @@ a:hover {
     justify-content: center !important; }
   .classNavLi {
     font-size: 15px !important;
-    color: #837878;
+    color: #b3acac;
     list-style: none;
     padding: 10px;
     margin: 10px 0px 0px 0px; }
   .header--position {
     background-color: black;
-    border-bottom: 6px solid orangered;
     height: 110px;
     width: 100%;
     top: 0; }
@@ -100,7 +100,8 @@ body {
     display: flex;
     align-items: center; }
   h2 {
-    margin: auto; }
+    margin: auto;
+    margin-top: 5px; }
   .main_div--parrafopresentacion {
     font-family: "IM Fell DW Pica", serif;
     font-size: 20px;
@@ -115,7 +116,7 @@ body {
     widht: 100%;
     height: 400px;
     margin: 0% !important;
-    border: 0px !important; }
+    border: 2px solid black !important; }
   .main_section--iframe {
     display: flex;
     justify-content: center;
@@ -127,11 +128,12 @@ body {
     font-size: 50px;
     color: #920000;
     font-weight: bold;
-    font-family: "Arvo";
+    font-family: "Lobster";
     display: flex;
     align-items: center; }
   h2 {
-    margin: auto; }
+    margin: auto;
+    margin-top: 15px; }
   .main_div--parrafopresentacion {
     font-family: "IM Fell DW Pica", serif;
     font-weight: bold;
@@ -142,10 +144,14 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 610px;
+    height: 640px !important;
     width: 100% !important;
+    margin: 0px !important;
     border: 0px !important;
-    margin: 0px !important; }
+    border-bottom: 2px solid black !important;
+    border-right: 4px solid black !important;
+    margin-left: -4px !important;
+    margin-top: 5px !important; }
   .main_section--iframe {
     margin-left: -15px !important;
     display: flex;
@@ -195,19 +201,15 @@ body {
     margin-left: 250px;
     font-size: 25px;
     font-weight: bold;
-    color: white;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: black;
+    font-family: "Lobster";
     border-radius: 200px;
     background-color: grey; }
   @keyframes sucursales {
     0% {
       width: 100%; }
-    30% {
-      transform: rotateY(100deg); }
-    60% {
-      width: 100%; }
-    90% {
-      transform: rotateX(100deg); }
+    50% {
+      transform: rotateY(50deg); }
     100% {
       width: 100%; } }
   .div_img--posicion {
@@ -237,41 +239,30 @@ body {
   .div_text--decoracion {
     margin-left: 50px;
     width: 70%;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
-    color: white;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: black;
+    font-family: "Lobster";
     border-radius: 20px !important;
     background-color: grey;
     text-align: center; }
   @keyframes sucursales {
     0% {
       width: 100%; }
-    30% {
-      transform: rotateY(100deg); }
-    60% {
-      width: 100%; }
-    90% {
-      transform: rotateX(100deg); }
+    50% {
+      transform: rotateY(50deg); }
     100% {
       width: 100%; } }
   .div_img--posicion {
-    border: solid black 5px;
-    border-radius: 250px;
-    background-image: url("../assets/img/fondonegro.jpg");
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 20%;
     height: 350px;
-    margin-left: -200px !important;
+    margin-left: -105px !important;
     animation-name: sucursales;
     animation-duration: 2s !important;
     animation-iteration-count: 1 !important;
-    animation-timing-function: ease-in; }
-  .suc1 {
-    margin-left: -270px !important; }
-  .suc3 {
-    margin-left: -300px !important; } }
+    animation-timing-function: ease-in; } }
 
 @media only screen and (min-width: 1024px) {
   @keyframes desaparecer {
@@ -395,7 +386,7 @@ body {
     color: black;
     font-weight: bold;
     text-align: left;
-    font-family: "Arvo";
+    font-family: "Lobster";
     padding: 20px;
     background-image: linear-gradient(to left, #fff022, orangered);
     transition: font-size;
@@ -403,10 +394,11 @@ body {
   .main_sesion--form {
     padding: 20px;
     background-image: url("../assets/img/contacto1.jpg");
-    background-repeat: round;
-    font-family: "IM Fell DW Pica";
+    background-repeat: repeat;
+    font-family: "Bebas neue";
     color: white;
-    font-size: 25px; }
+    font-size: 25px;
+    text-align: center; }
   input,
   textarea,
   select {

@@ -9,7 +9,7 @@ $medidas: (
         color: black;
         font-weight: bold;
         text-align: left;
-        font-family: "Arvo";
+        font-family: "Lobster";
         padding: 20px;
         background-image: linear-gradient(to left, rgb(255, 240, 34), orangered);
         transition: font-size;
@@ -18,10 +18,11 @@ $medidas: (
       .main_sesion--form {
         padding: 20px;
         background-image: url("../assets/img/contacto1.jpg");
-        background-repeat: round;
-        font-family: "IM Fell DW Pica";
-        color: rgb(255, 255, 255);
+        background-repeat: repeat;
+        font-family: "Bebas neue";
+        color:white;
         font-size: 25px;
+        text-align: center;
       }
       input,
       textarea,

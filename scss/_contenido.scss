@@ -25,6 +25,7 @@ body {
   }
   h2 {
     margin: auto;
+    margin-top: 5px;
   }
   .main_div--parrafopresentacion {
     font-family: "IM Fell DW Pica", serif;
@@ -40,7 +41,7 @@ body {
     background-attachment: fixed;
     @include anchoyalto (100%,400px);
     margin:0% !important;
-    border:0px !important;
+    border:2px solid black!important;
   }
   .main_section--iframe {
     display: flex;
@@ -54,12 +55,13 @@ body {
     font-size: 50px ;
     color: rgb(146, 0, 0);
     font-weight: bold;
-    font-family: "Arvo";
+    font-family: "Lobster";
     display: flex;
     align-items: center;
   }
   h2 {
-    margin: auto;
+    margin:auto;
+    margin-top: 15px;
   }
   .main_div--parrafopresentacion {
     font-family: "IM Fell DW Pica", serif;
@@ -72,10 +74,14 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 610px;
+    height: 640px !important;
     width: 100% !important;
-    border: 0px !important;
     margin: 0px !important;
+    border: 0px !important;
+    border-bottom:2px solid black!important;
+    border-right:4px solid black!important;
+    margin-left: -4px !important;
+    margin-top: 5px !important;
   }
   .main_section--iframe {
     margin-left: -15px !important;
