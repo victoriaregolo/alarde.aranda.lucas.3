@@ -256,9 +256,9 @@ body {
   .div_img--posicion {
     display: flex;
     justify-content: center;
-    width: 20%;
+    width: 100%;
     height: 350px;
-    margin-left: -105px !important;
+    margin-left: -272px !important;
     animation-name: sucursales;
     animation-duration: 2s !important;
     animation-iteration-count: 1 !important;
